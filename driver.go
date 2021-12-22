@@ -6,5 +6,8 @@ import (
 )
 
 func init() {
-	dtmdriver.Use("dtm-driver-gozero")
+	err := dtmdriver.Use("dtm-driver-gozero")
+	if err != nil {
+		panic(err)
+	}
 }
