@@ -1,8 +1,8 @@
 package driver_gozero
 
 import (
-	"github.com/yedf/dtmdriver"
-	_ "github.com/yedf/dtmdriver-gozero"
+	"github.com/dtm-labs/dtmdriver"
+	_ "github.com/dtm-labs/dtmdriver-gozero"
 )
 
 func init() {
